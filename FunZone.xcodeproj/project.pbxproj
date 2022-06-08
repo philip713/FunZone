@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E2A61462845C23E00FE4340 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2A61452845C23E00FE4340 /* SignUpViewController.swift */; };
+		7E3411972847B10A0082C8BC /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3411952847B10A0082C8BC /* User+CoreDataClass.swift */; };
+		7E3411982847B10A0082C8BC /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3411962847B10A0082C8BC /* User+CoreDataProperties.swift */; };
+		7E34119A2847B13E0082C8BC /* UserDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3411992847B13E0082C8BC /* UserDBHelper.swift */; };
+		7E34119C2847D16D0082C8BC /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E34119B2847D16D0082C8BC /* NotesViewController.swift */; };
+		7E34119F2847DCFA0082C8BC /* Notes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E34119D2847DCFA0082C8BC /* Notes+CoreDataClass.swift */; };
+		7E3411A02847DCFA0082C8BC /* Notes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E34119E2847DCFA0082C8BC /* Notes+CoreDataProperties.swift */; };
+		7E3411A22847DD200082C8BC /* NotesDbHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3411A12847DD200082C8BC /* NotesDbHelper.swift */; };
+		7E341212284810A20082C8BC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E341211284810A20082C8BC /* SearchViewController.swift */; };
+		7E341214284813D70082C8BC /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E341213284813D70082C8BC /* BookViewController.swift */; };
+		7E341216284814510082C8BC /* BookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E341215284814510082C8BC /* BookCollectionViewCell.swift */; };
+		7E360CB3284E6161002014E9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E360CB2284E6160002014E9 /* MainTabBarController.swift */; };
 		7E470AF1283ED3A8007C812B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E470AF0283ED3A8007C812B /* AppDelegate.swift */; };
 		7E470AF3283ED3A8007C812B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E470AF2283ED3A8007C812B /* SceneDelegate.swift */; };
 		7E470AF5283ED3A8007C812B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E470AF4283ED3A8007C812B /* ViewController.swift */; };
@@ -14,9 +26,56 @@
 		7E470AFB283ED3A8007C812B /* FunZone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E470AF9283ED3A8007C812B /* FunZone.xcdatamodeld */; };
 		7E470AFD283ED3A9007C812B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E470AFC283ED3A9007C812B /* Assets.xcassets */; };
 		7E470B00283ED3A9007C812B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E470AFE283ED3A9007C812B /* LaunchScreen.storyboard */; };
+		7E8DD11D284A605000151FB2 /* 12.Something In The Way.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD10D284A604D00151FB2 /* 12.Something In The Way.mp3 */; };
+		7E8DD11E284A605000151FB2 /* Viva Las Vengeance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD10E284A604D00151FB2 /* Viva Las Vengeance.mp3 */; };
+		7E8DD11F284A605000151FB2 /* 04.Breed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD10F284A604D00151FB2 /* 04.Breed.mp3 */; };
+		7E8DD120284A605000151FB2 /* 10.Stay Away.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD110284A604E00151FB2 /* 10.Stay Away.mp3 */; };
+		7E8DD121284A605000151FB2 /* Ballroom Blitz.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD111284A604E00151FB2 /* Ballroom Blitz.mp3 */; };
+		7E8DD122284A605000151FB2 /* 01.Smells Like Teen Spirit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD112284A604E00151FB2 /* 01.Smells Like Teen Spirit.mp3 */; };
+		7E8DD123284A605000151FB2 /* 05.Lithium.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD113284A604E00151FB2 /* 05.Lithium.mp3 */; };
+		7E8DD124284A605000151FB2 /* A Man Without Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD114284A604E00151FB2 /* A Man Without Love.mp3 */; };
+		7E8DD125284A605000151FB2 /* Never Gonna Give You Up.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD115284A604E00151FB2 /* Never Gonna Give You Up.mp3 */; };
+		7E8DD126284A605000151FB2 /* 11.On A Plain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD116284A604F00151FB2 /* 11.On A Plain.mp3 */; };
+		7E8DD127284A605000151FB2 /* 06.Polly.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD117284A604F00151FB2 /* 06.Polly.mp3 */; };
+		7E8DD128284A605000151FB2 /* 09.Lounge Act.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD118284A604F00151FB2 /* 09.Lounge Act.mp3 */; };
+		7E8DD129284A605000151FB2 /* While My Guitar Gently Weeps.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD119284A604F00151FB2 /* While My Guitar Gently Weeps.mp3 */; };
+		7E8DD12A284A605000151FB2 /* 02.In Bloom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD11A284A604F00151FB2 /* 02.In Bloom.mp3 */; };
+		7E8DD12B284A605000151FB2 /* 03.Come As You Are.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD11B284A605000151FB2 /* 03.Come As You Are.mp3 */; };
+		7E8DD12C284A605000151FB2 /* Without Me.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7E8DD11C284A605000151FB2 /* Without Me.mp3 */; };
+		7E90F99E28444A88000C793C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E90F99D28444A88000C793C /* LoginViewController.swift */; };
+		7EB4E52C284911FF0029655D /* The Great Gatsby.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E52B284911FF0029655D /* The Great Gatsby.pdf */; };
+		7EB4E52E284912160029655D /* The Adventures of Huckleberry Finn.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E52D284912160029655D /* The Adventures of Huckleberry Finn.pdf */; };
+		7EB4E530284916DD0029655D /* PDFScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4E52F284916DD0029655D /* PDFScreenViewController.swift */; };
+		7EB4E540284947190029655D /* Little Women.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E537284947190029655D /* Little Women.pdf */; };
+		7EB4E541284947190029655D /* The Strange Case of Dr. Jekyll and Mr. Hyde.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E538284947190029655D /* The Strange Case of Dr. Jekyll and Mr. Hyde.pdf */; };
+		7EB4E542284947190029655D /* Alice's Adventures in Wonderland.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E539284947190029655D /* Alice's Adventures in Wonderland.pdf */; };
+		7EB4E543284947190029655D /* A Christmas Carol.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E53A284947190029655D /* A Christmas Carol.pdf */; };
+		7EB4E544284947190029655D /* Moby Dick.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E53B284947190029655D /* Moby Dick.pdf */; };
+		7EB4E545284947190029655D /* Pride and Prejudice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E53C284947190029655D /* Pride and Prejudice.pdf */; };
+		7EB4E546284947190029655D /* The Adventure of Tom Sawyer.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E53D284947190029655D /* The Adventure of Tom Sawyer.pdf */; };
+		7EB4E547284947190029655D /* Les Miserables.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E53E284947190029655D /* Les Miserables.pdf */; };
+		7EB4E548284947190029655D /* The Merry Adventures of Robin Hood.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7EB4E53F284947190029655D /* The Merry Adventures of Robin Hood.pdf */; };
+		7EB4E55228495F710029655D /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4E55128495F710029655D /* MusicViewController.swift */; };
+		7EB4E55428495FBA0029655D /* MusicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4E55328495FBA0029655D /* MusicTableViewCell.swift */; };
+		7EB4E55628495FED0029655D /* NowPlayingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EB4E55528495FED0029655D /* NowPlayingViewController.swift */; };
+		7ED30948284D442D00990F6D /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED30947284D442D00990F6D /* NotesTableViewController.swift */; };
+		7ED30954284D4E6100990F6D /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED30953284D4E6100990F6D /* NoteTableViewCell.swift */; };
+		7ED30956284D5C3300990F6D /* SingleNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ED30955284D5C3300990F6D /* SingleNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E2A61452845C23E00FE4340 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7E3411952847B10A0082C8BC /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7E3411962847B10A0082C8BC /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7E3411992847B13E0082C8BC /* UserDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDBHelper.swift; sourceTree = "<group>"; };
+		7E34119B2847D16D0082C8BC /* NotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		7E34119D2847DCFA0082C8BC /* Notes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7E34119E2847DCFA0082C8BC /* Notes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7E3411A12847DD200082C8BC /* NotesDbHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesDbHelper.swift; sourceTree = "<group>"; };
+		7E341211284810A20082C8BC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		7E341213284813D70082C8BC /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
+		7E341215284814510082C8BC /* BookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E360CB2284E6160002014E9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		7E470AED283ED3A8007C812B /* FunZone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunZone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E470AF0283ED3A8007C812B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E470AF2283ED3A8007C812B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +85,41 @@
 		7E470AFC283ED3A9007C812B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E470AFF283ED3A9007C812B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E470B01283ED3A9007C812B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8DD10D284A604D00151FB2 /* 12.Something In The Way.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12.Something In The Way.mp3"; sourceTree = "<group>"; };
+		7E8DD10E284A604D00151FB2 /* Viva Las Vengeance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Viva Las Vengeance.mp3"; sourceTree = "<group>"; };
+		7E8DD10F284A604D00151FB2 /* 04.Breed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 04.Breed.mp3; sourceTree = "<group>"; };
+		7E8DD110284A604E00151FB2 /* 10.Stay Away.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10.Stay Away.mp3"; sourceTree = "<group>"; };
+		7E8DD111284A604E00151FB2 /* Ballroom Blitz.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ballroom Blitz.mp3"; sourceTree = "<group>"; };
+		7E8DD112284A604E00151FB2 /* 01.Smells Like Teen Spirit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01.Smells Like Teen Spirit.mp3"; sourceTree = "<group>"; };
+		7E8DD113284A604E00151FB2 /* 05.Lithium.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 05.Lithium.mp3; sourceTree = "<group>"; };
+		7E8DD114284A604E00151FB2 /* A Man Without Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A Man Without Love.mp3"; sourceTree = "<group>"; };
+		7E8DD115284A604E00151FB2 /* Never Gonna Give You Up.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Never Gonna Give You Up.mp3"; sourceTree = "<group>"; };
+		7E8DD116284A604F00151FB2 /* 11.On A Plain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11.On A Plain.mp3"; sourceTree = "<group>"; };
+		7E8DD117284A604F00151FB2 /* 06.Polly.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 06.Polly.mp3; sourceTree = "<group>"; };
+		7E8DD118284A604F00151FB2 /* 09.Lounge Act.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09.Lounge Act.mp3"; sourceTree = "<group>"; };
+		7E8DD119284A604F00151FB2 /* While My Guitar Gently Weeps.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "While My Guitar Gently Weeps.mp3"; sourceTree = "<group>"; };
+		7E8DD11A284A604F00151FB2 /* 02.In Bloom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02.In Bloom.mp3"; sourceTree = "<group>"; };
+		7E8DD11B284A605000151FB2 /* 03.Come As You Are.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03.Come As You Are.mp3"; sourceTree = "<group>"; };
+		7E8DD11C284A605000151FB2 /* Without Me.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Without Me.mp3"; sourceTree = "<group>"; };
+		7E90F99D28444A88000C793C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7EB4E52B284911FF0029655D /* The Great Gatsby.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Great Gatsby.pdf"; sourceTree = "<group>"; };
+		7EB4E52D284912160029655D /* The Adventures of Huckleberry Finn.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Adventures of Huckleberry Finn.pdf"; sourceTree = "<group>"; };
+		7EB4E52F284916DD0029655D /* PDFScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFScreenViewController.swift; sourceTree = "<group>"; };
+		7EB4E537284947190029655D /* Little Women.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Little Women.pdf"; sourceTree = "<group>"; };
+		7EB4E538284947190029655D /* The Strange Case of Dr. Jekyll and Mr. Hyde.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Strange Case of Dr. Jekyll and Mr. Hyde.pdf"; sourceTree = "<group>"; };
+		7EB4E539284947190029655D /* Alice's Adventures in Wonderland.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Alice's Adventures in Wonderland.pdf"; sourceTree = "<group>"; };
+		7EB4E53A284947190029655D /* A Christmas Carol.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "A Christmas Carol.pdf"; sourceTree = "<group>"; };
+		7EB4E53B284947190029655D /* Moby Dick.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Moby Dick.pdf"; sourceTree = "<group>"; };
+		7EB4E53C284947190029655D /* Pride and Prejudice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Pride and Prejudice.pdf"; sourceTree = "<group>"; };
+		7EB4E53D284947190029655D /* The Adventure of Tom Sawyer.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Adventure of Tom Sawyer.pdf"; sourceTree = "<group>"; };
+		7EB4E53E284947190029655D /* Les Miserables.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Les Miserables.pdf"; sourceTree = "<group>"; };
+		7EB4E53F284947190029655D /* The Merry Adventures of Robin Hood.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Merry Adventures of Robin Hood.pdf"; sourceTree = "<group>"; };
+		7EB4E55128495F710029655D /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
+		7EB4E55328495FBA0029655D /* MusicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTableViewCell.swift; sourceTree = "<group>"; };
+		7EB4E55528495FED0029655D /* NowPlayingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowPlayingViewController.swift; sourceTree = "<group>"; };
+		7ED30947284D442D00990F6D /* NotesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		7ED30953284D4E6100990F6D /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		7ED30955284D5C3300990F6D /* SingleNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +136,10 @@
 		7E470AE4283ED3A8007C812B = {
 			isa = PBXGroup;
 			children = (
+				7E34119D2847DCFA0082C8BC /* Notes+CoreDataClass.swift */,
+				7E34119E2847DCFA0082C8BC /* Notes+CoreDataProperties.swift */,
+				7E3411952847B10A0082C8BC /* User+CoreDataClass.swift */,
+				7E3411962847B10A0082C8BC /* User+CoreDataProperties.swift */,
 				7E470AEF283ED3A8007C812B /* FunZone */,
 				7E470AEE283ED3A8007C812B /* Products */,
 			);
@@ -58,6 +156,8 @@
 		7E470AEF283ED3A8007C812B /* FunZone */ = {
 			isa = PBXGroup;
 			children = (
+				7EB4E557284966BB0029655D /* Songs */,
+				7EB4E52A284911D00029655D /* Books */,
 				7E470AF0283ED3A8007C812B /* AppDelegate.swift */,
 				7E470AF2283ED3A8007C812B /* SceneDelegate.swift */,
 				7E470AF4283ED3A8007C812B /* ViewController.swift */,
@@ -66,8 +166,65 @@
 				7E470AFE283ED3A9007C812B /* LaunchScreen.storyboard */,
 				7E470B01283ED3A9007C812B /* Info.plist */,
 				7E470AF9283ED3A8007C812B /* FunZone.xcdatamodeld */,
+				7E90F99D28444A88000C793C /* LoginViewController.swift */,
+				7E2A61452845C23E00FE4340 /* SignUpViewController.swift */,
+				7E3411992847B13E0082C8BC /* UserDBHelper.swift */,
+				7E34119B2847D16D0082C8BC /* NotesViewController.swift */,
+				7E3411A12847DD200082C8BC /* NotesDbHelper.swift */,
+				7E341211284810A20082C8BC /* SearchViewController.swift */,
+				7E341213284813D70082C8BC /* BookViewController.swift */,
+				7E341215284814510082C8BC /* BookCollectionViewCell.swift */,
+				7EB4E52F284916DD0029655D /* PDFScreenViewController.swift */,
+				7EB4E55128495F710029655D /* MusicViewController.swift */,
+				7EB4E55328495FBA0029655D /* MusicTableViewCell.swift */,
+				7EB4E55528495FED0029655D /* NowPlayingViewController.swift */,
+				7ED30947284D442D00990F6D /* NotesTableViewController.swift */,
+				7ED30953284D4E6100990F6D /* NoteTableViewCell.swift */,
+				7ED30955284D5C3300990F6D /* SingleNoteViewController.swift */,
+				7E360CB2284E6160002014E9 /* MainTabBarController.swift */,
 			);
 			path = FunZone;
+			sourceTree = "<group>";
+		};
+		7EB4E52A284911D00029655D /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				7EB4E52D284912160029655D /* The Adventures of Huckleberry Finn.pdf */,
+				7EB4E52B284911FF0029655D /* The Great Gatsby.pdf */,
+				7EB4E53A284947190029655D /* A Christmas Carol.pdf */,
+				7EB4E539284947190029655D /* Alice's Adventures in Wonderland.pdf */,
+				7EB4E53E284947190029655D /* Les Miserables.pdf */,
+				7EB4E537284947190029655D /* Little Women.pdf */,
+				7EB4E53B284947190029655D /* Moby Dick.pdf */,
+				7EB4E53C284947190029655D /* Pride and Prejudice.pdf */,
+				7EB4E53D284947190029655D /* The Adventure of Tom Sawyer.pdf */,
+				7EB4E53F284947190029655D /* The Merry Adventures of Robin Hood.pdf */,
+				7EB4E538284947190029655D /* The Strange Case of Dr. Jekyll and Mr. Hyde.pdf */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
+		7EB4E557284966BB0029655D /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				7E8DD112284A604E00151FB2 /* 01.Smells Like Teen Spirit.mp3 */,
+				7E8DD11A284A604F00151FB2 /* 02.In Bloom.mp3 */,
+				7E8DD11B284A605000151FB2 /* 03.Come As You Are.mp3 */,
+				7E8DD10F284A604D00151FB2 /* 04.Breed.mp3 */,
+				7E8DD113284A604E00151FB2 /* 05.Lithium.mp3 */,
+				7E8DD117284A604F00151FB2 /* 06.Polly.mp3 */,
+				7E8DD118284A604F00151FB2 /* 09.Lounge Act.mp3 */,
+				7E8DD110284A604E00151FB2 /* 10.Stay Away.mp3 */,
+				7E8DD116284A604F00151FB2 /* 11.On A Plain.mp3 */,
+				7E8DD10D284A604D00151FB2 /* 12.Something In The Way.mp3 */,
+				7E8DD114284A604E00151FB2 /* A Man Without Love.mp3 */,
+				7E8DD111284A604E00151FB2 /* Ballroom Blitz.mp3 */,
+				7E8DD115284A604E00151FB2 /* Never Gonna Give You Up.mp3 */,
+				7E8DD10E284A604D00151FB2 /* Viva Las Vengeance.mp3 */,
+				7E8DD119284A604F00151FB2 /* While My Guitar Gently Weeps.mp3 */,
+				7E8DD11C284A605000151FB2 /* Without Me.mp3 */,
+			);
+			path = Songs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,9 +285,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E8DD128284A605000151FB2 /* 09.Lounge Act.mp3 in Resources */,
 				7E470B00283ED3A9007C812B /* LaunchScreen.storyboard in Resources */,
+				7E8DD12C284A605000151FB2 /* Without Me.mp3 in Resources */,
+				7E8DD126284A605000151FB2 /* 11.On A Plain.mp3 in Resources */,
+				7EB4E52C284911FF0029655D /* The Great Gatsby.pdf in Resources */,
+				7E8DD12B284A605000151FB2 /* 03.Come As You Are.mp3 in Resources */,
+				7E8DD11F284A605000151FB2 /* 04.Breed.mp3 in Resources */,
+				7EB4E546284947190029655D /* The Adventure of Tom Sawyer.pdf in Resources */,
+				7EB4E542284947190029655D /* Alice's Adventures in Wonderland.pdf in Resources */,
+				7E8DD121284A605000151FB2 /* Ballroom Blitz.mp3 in Resources */,
+				7EB4E548284947190029655D /* The Merry Adventures of Robin Hood.pdf in Resources */,
+				7E8DD122284A605000151FB2 /* 01.Smells Like Teen Spirit.mp3 in Resources */,
+				7E8DD120284A605000151FB2 /* 10.Stay Away.mp3 in Resources */,
+				7E8DD127284A605000151FB2 /* 06.Polly.mp3 in Resources */,
+				7EB4E544284947190029655D /* Moby Dick.pdf in Resources */,
+				7E8DD11E284A605000151FB2 /* Viva Las Vengeance.mp3 in Resources */,
+				7EB4E540284947190029655D /* Little Women.pdf in Resources */,
 				7E470AFD283ED3A9007C812B /* Assets.xcassets in Resources */,
+				7E8DD125284A605000151FB2 /* Never Gonna Give You Up.mp3 in Resources */,
+				7E8DD12A284A605000151FB2 /* 02.In Bloom.mp3 in Resources */,
+				7EB4E543284947190029655D /* A Christmas Carol.pdf in Resources */,
+				7EB4E541284947190029655D /* The Strange Case of Dr. Jekyll and Mr. Hyde.pdf in Resources */,
+				7E8DD123284A605000151FB2 /* 05.Lithium.mp3 in Resources */,
+				7E8DD129284A605000151FB2 /* While My Guitar Gently Weeps.mp3 in Resources */,
+				7E8DD11D284A605000151FB2 /* 12.Something In The Way.mp3 in Resources */,
+				7EB4E52E284912160029655D /* The Adventures of Huckleberry Finn.pdf in Resources */,
+				7EB4E545284947190029655D /* Pride and Prejudice.pdf in Resources */,
+				7EB4E547284947190029655D /* Les Miserables.pdf in Resources */,
 				7E470AF8283ED3A8007C812B /* Main.storyboard in Resources */,
+				7E8DD124284A605000151FB2 /* A Man Without Love.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +325,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E2A61462845C23E00FE4340 /* SignUpViewController.swift in Sources */,
 				7E470AF5283ED3A8007C812B /* ViewController.swift in Sources */,
+				7E360CB3284E6161002014E9 /* MainTabBarController.swift in Sources */,
+				7E3411982847B10A0082C8BC /* User+CoreDataProperties.swift in Sources */,
 				7E470AFB283ED3A8007C812B /* FunZone.xcdatamodeld in Sources */,
 				7E470AF1283ED3A8007C812B /* AppDelegate.swift in Sources */,
+				7E90F99E28444A88000C793C /* LoginViewController.swift in Sources */,
+				7EB4E55228495F710029655D /* MusicViewController.swift in Sources */,
+				7E3411A22847DD200082C8BC /* NotesDbHelper.swift in Sources */,
+				7EB4E530284916DD0029655D /* PDFScreenViewController.swift in Sources */,
+				7E34119C2847D16D0082C8BC /* NotesViewController.swift in Sources */,
+				7E341212284810A20082C8BC /* SearchViewController.swift in Sources */,
+				7E341216284814510082C8BC /* BookCollectionViewCell.swift in Sources */,
+				7ED30956284D5C3300990F6D /* SingleNoteViewController.swift in Sources */,
+				7EB4E55428495FBA0029655D /* MusicTableViewCell.swift in Sources */,
 				7E470AF3283ED3A8007C812B /* SceneDelegate.swift in Sources */,
+				7E34119A2847B13E0082C8BC /* UserDBHelper.swift in Sources */,
+				7E3411A02847DCFA0082C8BC /* Notes+CoreDataProperties.swift in Sources */,
+				7EB4E55628495FED0029655D /* NowPlayingViewController.swift in Sources */,
+				7E341214284813D70082C8BC /* BookViewController.swift in Sources */,
+				7E34119F2847DCFA0082C8BC /* Notes+CoreDataClass.swift in Sources */,
+				7E3411972847B10A0082C8BC /* User+CoreDataClass.swift in Sources */,
+				7ED30948284D442D00990F6D /* NotesTableViewController.swift in Sources */,
+				7ED30954284D4E6100990F6D /* NoteTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
