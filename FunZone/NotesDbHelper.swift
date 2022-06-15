@@ -64,6 +64,20 @@ class NotesDbHelper{
         return notes
     }
     
+    func searchNotes(_ user : String, searchParameter : String) -> [Notes]{
+        var notes = [Notes]()
+        let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Notes")
+        fetchRequest.predicate = NSPredicate(format: "user == %@ AND title == %@", user, searchParameter)
+        do{
+            notes = try context?.fetch(fetchRequest) as! [Notes]
+            print("data fetched")
+        }
+        catch{
+            print("cannot fetch data")
+        }
+        return notes
+    }
+    
     func getSelectedNote(_ title : String,_ user : String) -> Notes{
         var myNote = Notes()
         let fetchRequest = NSFetchRequest<NSFetchRequestResult>(entityName: "Notes")

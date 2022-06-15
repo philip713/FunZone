@@ -50,9 +50,9 @@ class NotesTableViewController: UIViewController, UITableViewDelegate, UITableVi
                 //delete from noteList array
                 noteList?.remove(at: indexPath.row)
                 // delete the table view row
-                tableView.deleteRows(at: [indexPath], with: .fade)
-//                noteList = NotesDbHelper.dbHelper.getAllUserNotes(username!)
-//                print(noteList?.count)
+                //tableView.deleteRows(at: [indexPath], with: .fade)
+                //or
+                tableView.reloadData()
             }
         }
         else{

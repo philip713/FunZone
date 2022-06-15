@@ -11,6 +11,7 @@ import AVFoundation
 class NowPlayingViewController: UIViewController, AVAudioPlayerDelegate{
     
     static var audioPlayer : AVAudioPlayer?
+    var player : AVPlayer?
     var musicFile : String?
     var songList : [String]?
     var songIndex : Int?

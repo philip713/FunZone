@@ -67,13 +67,21 @@ class SignUpViewController: UIViewController {
         }
     }
     func isPasswordStrong() -> Bool{
+
+        let str = passwordTextField.text
         //least one uppercase,
         // least one digit
         // least one lowercase
         // least one symbol
         //  min 8 characters total
-        let str = passwordTextField.text
-        let passwordRegx = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&<>*~:`-]).{8,}$"
+//        let passwordRegx = "^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&<>*~:`-]).{8,}$"
+        
+        //email format example(philip@revature.net, philip@revature.gmail.com)
+//        let emailRegx = "^[0-9a-zA-Z]+([0-9a-zA-Z]*[-._+])*[0-9a-zA-Z]+@[0-9a-zA-Z]+([-.][0-9a-zA-Z]+)*([0-9a-zA-Z]*[.])[a-zA-Z]{2,6}$"
+        
+        // least one symbol
+        //min 8 cahracter total
+        let passwordRegx = "^(?=.*?[#?!@$%^&<>*~:`-]).{8,}$"
         let passwordCheck = NSPredicate(format: "SELF MATCHES %@",passwordRegx)
         if(passwordCheck.evaluate(with: str)){
             passwordWarningLabel.isHidden = true
